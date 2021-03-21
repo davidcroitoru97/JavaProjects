@@ -10,4 +10,9 @@ public class ClassAndObjects {
      */
     private int varsta =5;
     private int varsta2 = 3;
+
+    public int sum(int x, int y)
+    {
+        return x+y;
+    }
 }
