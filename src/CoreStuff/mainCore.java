@@ -7,7 +7,9 @@ public class mainCore {
         int a = 6;
         int b = 45;
 
-        // TODO: te rog sa faci o metoda asemanatoare in care sa faci o scadere
+        // (Rezolvat) te rog sa faci o metoda asemanatoare in care sa faci o scadere
+       classAndObjects.scadere(a,b);
+
         System.out.println(classAndObjects.sum(a,b));
         a=76;
 

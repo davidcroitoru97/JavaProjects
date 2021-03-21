@@ -11,4 +11,8 @@ public class ClassAndObjects {
     {
         return x+y;
     }
+    public void  scadere(int q, int w)
+    {
+     System.out.println(q-w);
+    }
 }
