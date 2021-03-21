@@ -1,13 +1,9 @@
 package CoreStuff;
 
-/**
- * Aici joacate cu clasele si obiectele aferentei ei
- */
+// TODO: citeste despre clase si obiecte, joacate cu ele, creiaza cateva obiecte, invata despre constructori, invata ce inseamna o instanta
 public class ClassAndObjects {
 
-    /*
-    Fa te rog o metoda ca sa returneze suma celor 2 variabile
-     */
+    // TODO: sterge variabilele astea 2
     private int varsta =5;
     private int varsta2 = 3;
 

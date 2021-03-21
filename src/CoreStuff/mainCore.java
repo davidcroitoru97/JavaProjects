@@ -7,7 +7,7 @@ public class mainCore {
         int a = 6;
         int b = 45;
 
-        // calculeaza si diferenta exact cum ai facut suma
+        // TODO: te rog sa faci o metoda asemanatoare in care sa faci o scadere
         System.out.println(classAndObjects.sum(a,b));
         a=76;
 
