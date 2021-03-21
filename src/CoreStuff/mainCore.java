@@ -8,5 +8,6 @@ public class mainCore {
         int b = 45;
 
         System.out.println(classAndObjects.sum(a,b));
+        a=76;
     }
 }
