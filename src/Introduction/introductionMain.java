@@ -7,8 +7,11 @@ public class introductionMain {
 
         //TODO-7: Apeleaza constructorii si metodele din clasa Objects aici
 
+        Objects A = new Objects();
+        Objects B = new Objects("Dinu" , "Croitoru",  23);
+
         /*
-         TODO-7: Citeste si scrie/invata despre ce este
+         REZOLVAT Citeste si scrie/invata despre ce este
             - o clasa
             - un obiect
             - un constructor
