@@ -10,14 +10,5 @@ public class introductionMain {
         Objects A = new Objects();
         Objects B = new Objects("Dinu" , "Croitoru",  23);
 
-        /*
-         REZOLVAT Citeste si scrie/invata despre ce este
-            - o clasa
-            - un obiect
-            - un constructor
-            - specificatorii de acces
-            - ce este : int, float, double, char, String
-            - ce este o instanta
-         */
     }
 }
