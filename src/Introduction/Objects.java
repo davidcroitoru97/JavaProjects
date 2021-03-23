@@ -63,12 +63,12 @@ public class Objects {
     // Nu reusesc sa apelez metoda Suma in main
     // Creeaza o metoda care insumeaza 2 variabile de tip int
 
-    public static int Suma(int a , int b)
+    public static int suma(int a , int b)
     {
         //this.a = a;
        // this.b = b;
-        int sum = a + b;
-        return sum;
+
+        return a+b;
     }
 
     // TODO-6: Creiaza o metoda toString care sa afiseze valorile constructorului cu parametrii

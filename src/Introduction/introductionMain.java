@@ -19,9 +19,9 @@ public class introductionMain {
 
         // aici trebuia sa apelez constructorul Suma dar nu inteleg cum sa fac. am scris toate metodele si nu reusesc sa fac sa afisez suma;
         // pana la afisare nu reusesc sa o apelez in main
-        Suma();
+        System.out.println(A.suma(6,8));
         int a=2;
         int b=3;
-        System.out.println("suma este "+ sum);
+        //System.out.println("suma este "+ sum);
     }
 }
