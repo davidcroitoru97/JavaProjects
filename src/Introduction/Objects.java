@@ -71,5 +71,5 @@ public class Objects {
         return a+b;
     }
 
-    // TODO-6: Creiaza o metoda toString care sa afiseze valorile constructorului cu parametrii
+    // rezolvat in clasa Garaj Creiaza o metoda toString care sa afiseze valorile constructorului cu parametrii
 }
