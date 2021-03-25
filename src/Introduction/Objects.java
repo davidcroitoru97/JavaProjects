@@ -1,9 +1,7 @@
 package Introduction;
 
 public class Objects {
-    // TODO-9: Daca ai citit si inteles specificatorii de acces, poti intra putin in conceptul de incapsulare adica
-    // TODO-9: declara aceste variabile private, creiaza setters si getters, iar cu ajutorul unui constructor blank
-    // TODO-9: seteaza valori pentru variabilelor utilizand setters si afiseaza in consola valorile folosind getters
+
     private String nume;
     private String prenume;
     private int varsta;
@@ -12,12 +10,8 @@ public class Objects {
     public int b ;
 
 
-    // TODO: un construcor fara parametrii nu are scopul de a deservii anumite valori unor variabile
-    //  un constructor blank ar trebuii sa fie in general simplu "Objects(){}" el fiind folosit pentru a creia o instanta a acestei clase
-    // TODO: se creiaza instanta pentru a putea apela metodele din acesta clasa
-    // TODO-8: sterge parametrii din acest constructor, dupa ce faci, poti sterge aceste todo-uri
-        Objects()
-        {
+
+        Objects() {
 
         }
         public String getnume()
