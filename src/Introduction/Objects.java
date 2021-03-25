@@ -13,7 +13,7 @@ public class Objects {
 
 
     // TODO: un construcor fara parametrii nu are scopul de a deservii anumite valori unor variabile
-    // TODO: un constructor blank ar trebuii sa fie in general simplu "Objects(){}" el fiind folosit pentru a creia o instanta a acestei clase
+    //  un constructor blank ar trebuii sa fie in general simplu "Objects(){}" el fiind folosit pentru a creia o instanta a acestei clase
     // TODO: se creiaza instanta pentru a putea apela metodele din acesta clasa
     // TODO-8: sterge parametrii din acest constructor, dupa ce faci, poti sterge aceste todo-uri
         Objects()

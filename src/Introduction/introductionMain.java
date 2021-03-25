@@ -16,8 +16,8 @@ public class introductionMain {
        // System.out.println("Numele este: " + A.getnume() + " Prenumele este: " + A.getprenume() + " Varsta este: " + A.getvarsta());
 
         //Objects B = new Objects("Dinu" , "Croitoru",  23);
-
-        // aici trebuia sa apelez constructorul Suma dar nu inteleg cum sa fac. am scris toate metodele si nu reusesc sa fac sa afisez suma;
+        
+        // ici trebuia sa apelez constructorul Suma dar nu inteleg cum sa fac. am scris toate metodele si nu reusesc sa fac sa afisez suma;
         // pana la afisare nu reusesc sa o apelez in main
        // System.out.println(A.suma(6,8));
         int a=2;
@@ -35,7 +35,25 @@ public class introductionMain {
         System.out.println(B);
         //System.out.println(B.toString());
 
-       // System.out.print(C);
+        //TODO: In afisare practic tu faci un string care sa fie afisat, pe langa metoda toString, poti sa concatenzi diferite variabile sau obiecte
+        // Concatenarea se face folosind "+". Ti-am facut un exemplu mai jos, poti sa il rulezi  si sa vezi ce face
+        System.out.println("Nume: " + B.getnumeMan() + " Prenume: " +B.getnumeMan() + " are " + 234 + " lucrari facute.");
+        //TODO: alt exemplu de concatenare
+        String nume = "Robert" + " Vasile";
+        int varsta = 24;
+        System.out.println("Utilizatorul este: " + nume + " cu varsta de " + varsta + " ani.");
+        //TODO concatenarea o poti folosi si la combinarea unor valori. daca faci int x = 4 + 5; aici nu este concatenare, este adunare
+        // concatenarea se face la siruri de caractere.
+        int x = 3;
+        int y = 5;
+        String coordonate1 = "x1: " + x + " y1: " + y;
+        // TODO : daca faci asa int-urile se concateneaza
+        String coordonate2 = "x2: " + x + y;
+        // TODO: daca faci asa , ele se aduna, sau se pot inmulti, imparti, scadea etc.
+        String coordonate3 = "x3: " + (x+y);
+        System.out.println(coordonate1);
+        System.out.println(coordonate2);
+        System.out.println(coordonate3);
         //System.out.println(C.toString());
     }
 }

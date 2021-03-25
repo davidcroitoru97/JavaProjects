@@ -2,6 +2,11 @@ package Introduction;
 
 public class Garaj {
 
+    //TODO-Verificare: Fa aceste variabile private, in momentul de fata  ele sunt vizibile la nivel de pachet.
+    // vei seta si vei prelua valorile folosind getters and setters, ca de aia ai creat acele metode
+    // in momentul de fata din clasa main poti face "garaj.nrMecanici" si sa schimbi valoarea int-ului
+    //  asta este bad practice, tot timpul declara variabilele private si folosesti setteri & getteri publici ca sa modifici caracteristici
+    //  acesta este principiul incapsularii, ia si citeste despre incapsulare si fa aceste variabile private
     int nrMecanici;
     int locuri;
     String numeMan;
