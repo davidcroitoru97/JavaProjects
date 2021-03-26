@@ -3,12 +3,12 @@ package Introduction;
 public class Garaj {
 
     //Aici nu am inteles cum spui tu sa folosesc garaje.nr>mecanici pentru a schimba valoarea int-ului
-    // TODO-HINT: adica practic cum ai facut in main "Objects A = new Objects(); A.setnume("David");" daca nu declari
+    // Notat adica practic cum ai facut in main "Objects A = new Objects(); A.setnume("David");" daca nu declari
     //  variabilele private, atunci o sa poti sa faci si "Objects A = new Objects(); A.nrMecanici = 5" ceea ce este un bad practice
     //  daca doresti sa schimbi valoarea unei variabile trebuie sa o faci prin intermediul unui setter ex:
     //  Objects A = new Objects(); A.setNrMecanici(5);"
 
-    // TODO:in momentul de fata din clasa main poti face "garaj.nrMecanici" si sa schimbi valoarea int-ului
+    // Notat :in momentul de fata din clasa main poti face "garaj.nrMecanici" si sa schimbi valoarea int-ului
     //  asta este bad practice, tot timpul declara variabilele private si folosesti setteri & getteri publici ca sa modifici caracteristici
     //  acesta este principiul incapsularii, ia si citeste despre incapsulare si fa aceste variabile private
     private int nrMecanici;
@@ -30,6 +30,11 @@ public class Garaj {
         this.locuri = locuri;
         this.numeMan = numeMan;
         this.prenumeMan = prenumeMan;
+    }
+    // Aici am creat un constructor cu doua argumente
+    public Garaj(int nrMecanici, String numeMan){
+        this.nrMecanici = nrMecanici;
+        this.numeMan = numeMan;
     }
 
     //getters

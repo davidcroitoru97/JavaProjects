@@ -29,8 +29,20 @@ public class introductionMain {
         System.out.println(autoRobert);
         // toString o sa populeze doar valorile fixe pe care le-a pus acolo, in cazul in care faci un constructor cu alti parametrii
         // sau mai putini, valorile asociate pentru populare din toString vor fi null
-        // TODO: creiaza un constructor in clasa Garaj cu parametrii (nrMecanici, numeMan), si initializeazal cu valori aici si afiseazal
+        // Rezolvat creiaza un constructor in clasa Garaj cu parametrii (nrMecanici, numeMan), si initializeazal cu valori aici si afiseazal
         //  cu functia toString() sa vezi ce se intampla.
+
+        //Aici am apelat constructorul cu doi parametri din clasa Garaj
+        Garaj C = new Garaj();
+        //Aici am initializat cu valori si am folosit metoda toString
+        C.setnrMecanici(3);
+        C.setNumeMan("David");
+        //Si din cauza ca in string sunt 4 parametri si eu am folosit doar 2, cei pe care nu i-am folosit li s-au atribuit valoarea null;
+        System.out.println(C);
+
+
+        garaj.nrMecanici(5);
+
 
         // In realitatea nu prea o sa faci afisari in consola, doar niste logari care sunt practic cumva acelasi lucru,
         // doar sa deserveasca o informatie care poate fi citita de catre programator. Tu faci afisarile in momentul de fata ca
