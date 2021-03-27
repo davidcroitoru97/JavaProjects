@@ -4,13 +4,13 @@ public class introductionMain {
 
     public static void main(String []args){
 
-        // TODO-HINT: Aici o sa iti fac o parcurgere a anumitor concepte si vreau sa te uiti si sa intelegi foarte bine
+        // Aici o sa iti fac o parcurgere a anumitor concepte si vreau sa te uiti si sa intelegi foarte bine
 
-        //  Declararea unui obiect de tipul garaj
+        // Declararea unui obiect de tipul garaj
         Garaj autoRobert;
 
-        //  Instantierea unui obiect, Am folosit constructorul blank (new Garaj();)
-        // instantierea este practic ce se intampla dupa "="
+        // Instantierea unui obiect, Am folosit constructorul blank (new Garaj();)
+        // Instantierea este practic ce se intampla dupa "="
         autoRobert = new Garaj();
 
         // Instantierea unui obiect, Am folosit constructorul cu argumente " public Garaj(int nrMecanici, int locuri, String numeMan, String prenumeMan)"
@@ -27,22 +27,19 @@ public class introductionMain {
 
         // Afisarea unui obiect folosin metoda toString declarata in clasa Garaj
         System.out.println(autoRobert);
-        // toString o sa populeze doar valorile fixe pe care le-a pus acolo, in cazul in care faci un constructor cu alti parametrii
-        // sau mai putini, valorile asociate pentru populare din toString vor fi null
-        // Rezolvat creiaza un constructor in clasa Garaj cu parametrii (nrMecanici, numeMan), si initializeazal cu valori aici si afiseazal
-        //  cu functia toString() sa vezi ce se intampla.
 
         //Aici am apelat constructorul cu doi parametri din clasa Garaj
+        // TODO-GRESEALA !!! Aici ai instantiat constructorul fara parametrii, dar datorita faptului ca tu mai jos ai initializat constructorul cu acele valori care practic sunt ale unui constructorului cu 2 parametrii, s-a facut tranzitia
+        //  in programare tot timpul se instantiaza de obicei constructorul fara parametrii, urmand sa se foloseasca altul dupa initializarea cu anumite valori.
         Garaj C = new Garaj();
+
         //Aici am initializat cu valori si am folosit metoda toString
         C.setnrMecanici(3);
         C.setNumeMan("David");
+
+        // TODO-GRESEALA !!! Corect: Din cauza ca in toString sunt disponibile 4 variabile, eu populand doar variabilele "nrMecanici" si " numeMan", variabilele "prenumeMan" si "locuri" vor fi null deoarece nu au o valoare atribuita ca in cazul celor doua.
         //Si din cauza ca in string sunt 4 parametri si eu am folosit doar 2, cei pe care nu i-am folosit li s-au atribuit valoarea null;
         System.out.println(C);
-
-
-        garaj.nrMecanici(5);
-
 
         // In realitatea nu prea o sa faci afisari in consola, doar niste logari care sunt practic cumva acelasi lucru,
         // doar sa deserveasca o informatie care poate fi citita de catre programator. Tu faci afisarile in momentul de fata ca
@@ -55,26 +52,26 @@ public class introductionMain {
          * Example: aici sunt exemple de concatenare in diverse circumstante
          */
         // In afisare practic tu faci un string care sa fie afisat, pe langa metoda toString, poti sa concatenzi diferite variabile sau obiecte
-        // Concatenarea se face folosind "+". Ti-am facut un exemplu mai jos, poti sa il rulezi  si sa vezi ce face
-       // System.out.println("Nume: " + B.getnumeMan() + " Prenume: " +B.getnumeMan() + " are " + 234 + " lucrari facute.");
+            // Concatenarea se face folosind "+". Ti-am facut un exemplu mai jos, poti sa il rulezi  si sa vezi ce face
+           // System.out.println("Nume: " + B.getnumeMan() + " Prenume: " +B.getnumeMan() + " are " + 234 + " lucrari facute.");
 
-        // alt exemplu de concatenare
-       // String nume = "Robert" + " Vasile";
-        //int varsta = 24;
-        //System.out.println("Utilizatorul este: " + nume + " cu varsta de " + varsta + " ani.");
+            // alt exemplu de concatenare
+           // String nume = "Robert" + " Vasile";
+            //int varsta = 24;
+            //System.out.println("Utilizatorul este: " + nume + " cu varsta de " + varsta + " ani.");
 
-        // concatenarea o poti folosi si la combinarea unor valori. daca faci int x = 4 + 5; aici nu este concatenare, este adunare
-        // concatenarea se face la siruri de caractere.
+            // concatenarea o poti folosi si la combinarea unor valori. daca faci int x = 4 + 5; aici nu este concatenare, este adunare
+            // concatenarea se face la siruri de caractere.
 
-        //int x = 3;
-        //int y = 5;
-        //String coordonate1 = "x1: " + x + " y1: " + y;
+            //int x = 3;
+            //int y = 5;
+            //String coordonate1 = "x1: " + x + " y1: " + y;
 
-        // daca faci asa int-urile se concateneaza
-        //String coordonate2 = "x2: " + x + y;
+            // daca faci asa int-urile se concateneaza
+            //String coordonate2 = "x2: " + x + y;
 
-        // daca faci asa , ele se aduna, sau se pot inmulti, imparti, scadea etc.
-       // String coordonate3 = "x3: " + (x+y);
+            // daca faci asa , ele se aduna, sau se pot inmulti, imparti, scadea etc.
+           // String coordonate3 = "x3: " + (x+y);
 
     }
 }

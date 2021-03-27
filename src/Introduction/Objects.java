@@ -1,9 +1,5 @@
 package Introduction;
 
-// TODO-HINT: Pentru o mai buna intelegere a codului, te sfatuiesc sa pui commenturi la ce faci, cum am facut eu mai jos si fa curat la ce nu este de folos
-//  Si un sfat, te sfatuiesc ca sa faci constructorii publici, in cazul in care doresti sa faci o instanta al clasei Objects
-//  in package-ul "OOP" nu o sa poti pentru ca este vizibil la nivel de pachet. specificatorii de acces sunt valabili pentru
-//  tot ce scrii, inclusiv constructori, metode , clase, variabile etc. Sa tii cont si de acest aspect
 public class Objects {
 
     // Declaratie Variabile

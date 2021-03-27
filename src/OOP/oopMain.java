@@ -17,7 +17,7 @@ public class oopMain {
 
     }
 
-    /* TODO-IMPORTANT : Ti-am facut un pachet care se numeste mostenire, in acel pachet dupa ce o sa citesti vreau ca
+    /* TODO-IMPORTANT : Ti-am facut un pachet care se numeste mostenire, in acel pachet
     *   dupa ce citesti despre mostenire, sa iti faci 2, 3 clase pe care o sa le apelezi in acest main.
     *   In aceste clase vreau sa ai o clasa principala si mai multe secundare care sa mosteneasca caracteristici
     *   de la clasa mama. In engleza, termenul de mostenire este cunoscut ca  (inheritance).
