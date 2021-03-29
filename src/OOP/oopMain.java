@@ -2,9 +2,9 @@ package OOP;
 
 public class oopMain {
 
-    // TODO: Ai grija cand dai run, sa dai de aici, in partea de sus-dreapta poti seta mai multe metode la care sa dai run(chenarul in care scrie introducitonMain)
+    // Ai grija cand dai run, sa dai de aici, in partea de sus-dreapta poti seta mai multe metode la care sa dai run(chenarul in care scrie introducitonMain)
+    // Rezolvat Creiaza o clasa si implementeaza conceptul de incapsulare
 
-    // TODO-OOP-1: Creiaza o clasa si implementeaza conceptul de incapsulare
 
     // TODO-HINT: sa stii ca abstractizarea poate fi faptul ca tu folosesti getters & settari pentru a modifica si a prelua valori
     //  acoperind conceptul ca, tu stii ca daca folosesti setter, acea metoda o sa seteze o valoare pentru respectiva variabila
@@ -14,7 +14,18 @@ public class oopMain {
     //TODO: citeste si despre abstractizare si noteaza-ti
     //TODO-OOP-2: Citeste si invata despre mostenire
     public static void main(String []args){
+        //Incapsulare
+        //am declarat un obiect
+        Auto auto = new Auto();
 
+        //Am initializat valori
+        auto.setMarca("BMW");
+        auto.setModel("E39");
+
+        //Am facut afisare
+        System.out.println("Marca este: " + auto.getMarca() + " Modelul este: " + auto.getModel());
+        // Am facut afisarea folosint metoda toString
+        System.out.println(auto);
     }
 
     /* TODO-IMPORTANT : Ti-am facut un pachet care se numeste mostenire, in acel pachet
