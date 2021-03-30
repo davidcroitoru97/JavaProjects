@@ -10,6 +10,10 @@ public class Auto {
       //Constructor fara argumente/blank
       Auto(){}
 
+      Auto(String Marca){
+        this.Marca = Marca;
+      }
+
       //Getters
       public String getMarca() {return this.Marca; }
       public String getModel() {return this.Model; }
@@ -20,10 +24,16 @@ public class Auto {
         public void setModel(String Model) {this.Model = Model;}
         public void setAn(int An) {this.An = An;}
 
+
+        //override
+        public void masina(){
+         System.out.println("Marca masinii este Audi");
+        }
+
         //toString
       public String toString() {
-        return "Marca este: " + this.Marca + " Modelul este: " + this.getModel() + " Anul este: " + this.An;
-      }
+       return "Marca este: " + this.Marca + " Modelul este: " + this.getModel() + " Anul este: " + this.An;
+     }
 
 
 }

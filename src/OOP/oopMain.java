@@ -17,15 +17,32 @@ public class oopMain {
         //Incapsulare
         //am declarat un obiect
         Auto auto = new Auto();
+        SUV suv = new SUV("integrala");
+        Combustibil cons = new Combustibil(5);
+
+        auto.masina();
+
+
+        //SUV masina = new SUV();
+       // masina.setModel("BMW");
+        //masina.setMarca("seria 5");
+
+
+       // masina.masina();
+
+
+
 
         //Am initializat valori
-        auto.setMarca("BMW");
-        auto.setModel("E39");
+       // auto.setMarca("BMW");
+        //auto.setModel("E39");
 
         //Am facut afisare
-        System.out.println("Marca este: " + auto.getMarca() + " Modelul este: " + auto.getModel());
+        //System.out.println("Marca este: " + auto.getMarca() + " Modelul este: " + auto.getModel());
         // Am facut afisarea folosint metoda toString
-        System.out.println(auto);
+        //System.out.println(auto);
+
+
     }
 
     /* TODO-IMPORTANT : Ti-am facut un pachet care se numeste mostenire, in acel pachet
