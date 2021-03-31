@@ -1,12 +1,26 @@
 package OOP;
+
+import javax.jws.WebParam;
+
 //Subclasa
 public class Combustibil extends Auto{
 
+    private String Marca;
+    private String Model;
+    private int An;
     private int consum;
     private String euro;
 
+
     //polimorfism static
+    public Combustibil()
+    {}
     public Combustibil(int consum){
+        this.consum = consum;
+    }
+
+    Combustibil(String Model, int consum) {
+        super(Model);
         this.consum = consum;
     }
 
@@ -22,5 +36,9 @@ public class Combustibil extends Auto{
     public void masina(){
         System.out.println("consumul este " + consum);
 
+    }
+
+    public String toString(){
+        return "Marca: " + getMarca() + " Cp: " + getconsum();
     }
 }

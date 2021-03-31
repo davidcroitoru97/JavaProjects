@@ -1,4 +1,7 @@
 package OOP;
+
+import com.sun.org.apache.xpath.internal.operations.Mod;
+
 //Clasa mama
 public class Auto {
 
@@ -9,6 +12,11 @@ public class Auto {
 
       //Constructor fara argumente/blank
       Auto(){}
+      Auto(String Marca, String Model, int An){
+        this.Marca = Marca;
+        this.Model = Model;
+        this.An = An;
+      }
 
       Auto(String Marca){
         this.Marca = Marca;

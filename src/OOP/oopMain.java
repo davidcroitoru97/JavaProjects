@@ -22,6 +22,14 @@ public class oopMain {
 
         auto.masina();
 
+        //am declarat un obiect ce mostenea argumente de la clasa Auto si am facut si afisarea folosind metoda toString
+        SUV sandra = new SUV("Audi", "A4", 2019, "integrala", 250);
+        System.out.println(sandra);
+
+        Combustibil comb = new Combustibil();
+        comb.setMarca("BMW");
+        comb.setconsum(11);
+        System.out.println(comb);
 
         //SUV masina = new SUV();
        // masina.setModel("BMW");
