@@ -9,7 +9,7 @@ public class Auto {
     private int An;
 
     //Constructor fara argumente/blank
-    Auto() {
+    public Auto() {
     }
 
     Auto(String Marca, String Model, int An) {

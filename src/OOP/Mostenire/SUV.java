@@ -16,7 +16,7 @@ public class SUV extends Auto {
 
 
     //Aici am facut un constructor cu argumentele mostenite de la clasa Auto si am incul si argumentele prorii
-    SUV(String Marca, String Model, int An, String tractiune, int cp) {
+    public SUV(String Marca, String Model, int An, String tractiune, int cp) {
         super(Marca, Model, An);
         this.tractiune = tractiune;
         this.cp = cp;
