@@ -1,6 +1,7 @@
-package OOP;
+package OOP.Mostenire;
+
 //Subclasa
-public class SUV extends Auto{
+public class SUV extends Auto {
     //declarat variabile
     private String Marca;
     private String Model;
@@ -9,7 +10,7 @@ public class SUV extends Auto{
     private int cp;
 
     // polimorfism static / overload
-    public SUV(String tractiune){
+    public SUV(String tractiune) {
         this.tractiune = tractiune;
     }
 
@@ -24,19 +25,30 @@ public class SUV extends Auto{
 
 
     //getters
-    public String gettractiune() {return this.tractiune;}
-    public int getcp() {return this.cp;}
+    public String gettractiune() {
+        return this.tractiune;
+    }
+
+    public int getcp() {
+        return this.cp;
+    }
 
     //Setters
-    public void setMarca(String tractiune) {this.tractiune = tractiune;}
-    public void setMarca(int cp) {this.cp = cp;}
+    public void setMarca(String tractiune) {
+        this.tractiune = tractiune;
+    }
+
+    public void setMarca(int cp) {
+        this.cp = cp;
+    }
 
     //Override
-    public void masina(){
+    public void masina() {
         System.out.println("Tractiunea este " + tractiune);
 
     }
-    public String toString(){
-        return "Marca: " +getMarca() + " Model: " + getModel() + " tractiune :" + gettractiune() + " cp: " + getcp();
+
+    public String toString() {
+        return "Marca: " + getMarca() + " Model: " + getModel() + " tractiune :" + gettractiune() + " cp: " + getcp();
     }
 }

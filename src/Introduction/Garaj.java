@@ -25,6 +25,11 @@ public class Garaj {
         this.numeMan = numeMan;
     }
 
+   public Garaj(String numeMan, int nrMecanici){
+        this.nrMecanici=nrMecanici;
+        this.numeMan=numeMan;
+   }
+
     // getters
     public int getnrMecanici() {
         return this.nrMecanici;
@@ -40,8 +45,8 @@ public class Garaj {
     }
 
     // setters
-    public void setnrMecanici(int nrMecanici) {
-        this.nrMecanici = nrMecanici;
+    public Garaj setnrMecanicisiLocuri() {
+        return new Garaj("Robert", 23);
     }
     public void setlocuri(int locuri) {
         this.locuri = locuri;
@@ -57,6 +62,10 @@ public class Garaj {
     public String toString() {
         return "Garajul este al mecanicului " + this.numeMan + " " + this.prenumeMan + " care are "
                 + this.nrMecanici + " de mecanici si " + this.getlocuri() + " locuri libere.";
+    }
+
+    public int impartire(int impartit, int impartitor){
+        return impartit/impartitor;
     }
 
 }
