@@ -2,7 +2,7 @@ package ClaseAbstracteSiInterfete;
 
 public class abstractMain {
 
-    //TODO-3: Te rog sa citesti despre keyword-ul "abstract", despre clase abstracte, metode abstracte si interfete in prima faza
+    //Facut azi : Te rog sa citesti despre keyword-ul "abstract", despre clase abstracte, metode abstracte si interfete in prima faza
     // in cartea pe care ti-am dat-o o sa gasesti informatii
     public static void main(String []args){
 
