@@ -1,12 +1,14 @@
 package ClaseAbstracteSiInterfete;
 
+import ClaseAbstracteSiInterfete.Classes.Cat;
+
 public class abstractMain {
 
-    //Facut azi : Te rog sa citesti despre keyword-ul "abstract", despre clase abstracte, metode abstracte si interfete in prima faza
-    // in cartea pe care ti-am dat-o o sa gasesti informatii
     public static void main(String []args){
         Cat cat = new Cat();
         cat.sunete();
+        // TODO: Incearca sa pui tot timpul metodele cu prima litera mica, este un principiu pentru clean code (ex: sunet(), nu Sunet()) ||
+        //   ex: getSunet() -> good, GetSunet() -> bad
         cat.Sunet();
 
         //TODO-4: Creiaza o interfata cu cateva metode pe care sa le apelezi intr-o clasa implementand interfata si furnizandui o implementare.

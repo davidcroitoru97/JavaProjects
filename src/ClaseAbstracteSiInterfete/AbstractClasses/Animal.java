@@ -1,4 +1,4 @@
-package ClaseAbstracteSiInterfete;
+package ClaseAbstracteSiInterfete.AbstractClasses;
 
 public abstract class Animal {
 

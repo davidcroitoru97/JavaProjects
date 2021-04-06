@@ -1,4 +1,6 @@
-package ClaseAbstracteSiInterfete;
+package ClaseAbstracteSiInterfete.Classes;
+
+import ClaseAbstracteSiInterfete.AbstractClasses.Animal;
 
 public class Cat extends Animal {
     public void Sunet() {
