@@ -8,7 +8,7 @@
 
 4. Ce este o interfata?
 
-5. Cum sunt variabilele si metodele dintr-o interfata?
+5. Ce se regaseste intr-o interfata?
 
 6. Ce se intampla daca mostenesti o clasa abstracta?
 
