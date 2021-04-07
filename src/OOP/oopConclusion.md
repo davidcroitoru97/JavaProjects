@@ -23,7 +23,7 @@ Prin conceptul de mostenire permitem unor clase(subclase) sa mosteneasca atribut
 Apare atunci cand avem mai multe clase legate intre ele prin mostenire
    aici avem overloading si overriding
    Overloading supraincarcare -este cand avem mai multe metode cu acelasi nume dar parametri diferiti
-   Overriding suprascriere - este cand avem metoda din sub clasa care are acelasi nume si parametri cu metoda din superclasa
+   Overriding suprascriere - este cand avem metoda din sub clasa care are acelasi nume si parametri cu metoda din superclasayou
 5. Ce semnifica relatiile  IS-A si HAS-A?: aici am citit notat dar nu am priceput
    
 6. Care sunt specificatorii de acces? Care sunt nivelele de acces pentru fiecare?
