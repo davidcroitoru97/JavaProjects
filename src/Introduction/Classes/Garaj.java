@@ -1,4 +1,4 @@
-package Introduction;
+package Introduction.Classes;
 
 public class Garaj {
 

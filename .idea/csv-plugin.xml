@@ -17,6 +17,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/src/Introduction/ConditionsAndLoops/Conditional.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/Introduction/ConditionsAndLoops/whileLoop.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/src/Introduction/Objects.java">
           <value>
             <Attribute>
