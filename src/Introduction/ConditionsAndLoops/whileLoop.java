@@ -7,6 +7,10 @@ public class whileLoop {
         while_loop(0);
     }
 
+    /**
+     * Aici ai metoda cu while loop
+     * @author Robert
+     */
     public static void while_loop( int number){
 
         boolean parameter = true;

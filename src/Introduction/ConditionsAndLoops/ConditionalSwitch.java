@@ -6,6 +6,10 @@ public class ConditionalSwitch {
         // TODO: testeaza si joacate cu metoda asta, si creiaza una care sa ia ca pararmetru un int
     }
 
+    /**
+     * Aici ai metoda cu switch
+     * @author Robert
+     */
     public static void swtich_method(String nume){
         switch (nume){
             case "Robert":

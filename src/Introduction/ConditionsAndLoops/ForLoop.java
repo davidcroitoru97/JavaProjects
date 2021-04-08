@@ -11,6 +11,10 @@ public class ForLoop {
         for_loop(vector);
     }
 
+    /**
+     * Aici ai metoda cu for loop
+     * @author Robert
+     */
     // metoda aceasta foloseste for ca sa parcurga toate elementele unui vector, cum am facut vara asta
     public static void for_loop(int vector[]){
         System.out.print("Vectorul este: ");
