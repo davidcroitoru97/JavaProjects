@@ -1,6 +1,6 @@
 package Evaluation_1;
 
-import static Evaluation_1.Rasa.Par;
+//import static Evaluation_1.Rasa.Par;
 
 //Am implementat interfata in clasa Vaca
 public class Vaca extends Animal implements Rasa{
@@ -16,15 +16,23 @@ public class Vaca extends Animal implements Rasa{
 
     }
 
-    //Am implementat metodele interfetei
+
     @Override
-    public String Ochi() {
+    public String Nume(String Nume) {
         return null;
     }
 
     @Override
-    public void picioare() {
-
+    public String Par(String Par) {
+        return null;
     }
+
+    @Override
+    public String picioare() {
+        return null;
+    }
+
+    //Am implementat metodele interfetei
+
 }
 

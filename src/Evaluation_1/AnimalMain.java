@@ -17,8 +17,13 @@ public class AnimalMain {
         vaca1.rasa();
         //Am afisat metodele implementate din interfata in clasa Cal
         Rasa cal3= new Cal();
-        System.out.println(cal3.Ochi());
+        //System.out.println(cal3.Ochi());
         cal3.picioare();
+
+        Rasa cal5= new Cal();
+        cal5.Nume("ANDU");
+
+        System.out.println(cal5);
 
     }
 }
