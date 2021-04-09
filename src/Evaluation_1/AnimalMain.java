@@ -20,8 +20,8 @@ public class AnimalMain {
         //System.out.println(cal3.Ochi());
         cal3.picioare();
 
-        Rasa cal5= new Cal();
-        cal5.Nume("ANDU");
+        Cal cal5= new Cal();
+        cal5.setNume("Clat");
 
         System.out.println(cal5);
 

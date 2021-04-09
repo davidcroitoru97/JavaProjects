@@ -3,11 +3,11 @@ package Evaluation_1;
 //Am implementat interfata in clasa Cal
 public class Cal extends Animal implements Rasa{
     private  String Coada;
-    String Nume;
+    private String Nume;
 
-    public static void setNume(String andu) {
+    public void setNume(String nume) {
+        Nume = "Gica";
     }
-
 
     //metode mostenite de la clasa abstracta
     @Override
