@@ -4,6 +4,7 @@ package Evaluation_1;
 public class Cal extends Animal implements Rasa{
     private  String Coada;
     private String Nume;
+    private String numeRasa;
 
     public void setNume(String nume) {
         Nume = "Gica";
@@ -39,6 +40,18 @@ public class Cal extends Animal implements Rasa{
     @Override
     public String picioare() {
         return null;
+    }
+
+    // TODO: aici este implementat setter-ul si metoda care se foloseste de un setter
+    // setter pentru string-ul numeRasa
+    public void setNumeRasa(String numeRasa) {
+        this.numeRasa = numeRasa;
+    }
+
+    @Override
+    public void numeRasa(String parametru) {
+        setNumeRasa(parametru);
+        System.out.println("Calul este de rasa " + parametru);
     }
 
 

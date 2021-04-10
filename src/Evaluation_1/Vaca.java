@@ -5,6 +5,8 @@ package Evaluation_1;
 //Am implementat interfata in clasa Vaca
 public class Vaca extends Animal implements Rasa{
 
+    private String numeRasa;
+
     //metode moostenite de la clasa abstracta
     @Override
     public void rasa() {System.out.println("Rasa Belgiana");
@@ -30,6 +32,16 @@ public class Vaca extends Animal implements Rasa{
     @Override
     public String picioare() {
         return null;
+    }
+
+    public void setNumeRasa(String numeRasa) {
+        this.numeRasa = numeRasa;
+    }
+
+    @Override
+    public void numeRasa(String parametru) {
+        setNumeRasa(parametru);
+        System.out.println("Vaca este de rasa " + parametru);
     }
 
     //Am implementat metodele interfetei
