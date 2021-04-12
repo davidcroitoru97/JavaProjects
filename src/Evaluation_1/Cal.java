@@ -42,7 +42,7 @@ public class Cal extends Animal implements Rasa{
         return null;
     }
 
-    // TODO: aici este implementat setter-ul si metoda care se foloseste de un setter
+    // Inteles aici este implementat setter-ul si metoda care se foloseste de un setter
     // setter pentru string-ul numeRasa
     public void setNumeRasa(String numeRasa) {
         this.numeRasa = numeRasa;

@@ -4,7 +4,7 @@ public class whileLoop {
 
     public static void main(String args[]){
         //TODO: incearca sa schimbi number pentru metoda sa vezi ce se intampla si sa intelgi logica
-        while_loop(0);
+        while_loop(6);
     }
 
     /**

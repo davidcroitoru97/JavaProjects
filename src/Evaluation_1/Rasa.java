@@ -8,7 +8,7 @@ public interface Rasa {
     public String Par(String Par);
     public String picioare();
 
-    //TODO: metoda cu un parametru pentru a implementa un setter in ea
+    //Inteles metoda cu un parametru pentru a implementa un setter in ea
     public void numeRasa(String parametru);
 
 
