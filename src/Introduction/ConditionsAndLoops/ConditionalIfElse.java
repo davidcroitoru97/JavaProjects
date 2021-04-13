@@ -3,15 +3,34 @@ package Introduction.ConditionsAndLoops;
 public class ConditionalIfElse {
 
     public static void main(String args[]){
-        // TODO: te rog sa apelezi fiecare metoda de mai jos cu parametrii necesarii si sa intelegi cum functioneaza
-        // TODO: pe langa asta te rog sa te gandesti la niste exemple in care poti implementa tu aceste conditii if-else
-
+        // Rezolvat: te rog sa apelezi fiecare metoda de mai jos cu parametrii necesarii si sa intelegi cum functioneaza
+        // Rezolvat pe langa asta te rog sa te gandesti la niste exemple in care poti implementa tu aceste conditii if-else
+        metoda_cu_if_si_else(true);
+        metoda_cu_if_si_else_negat(true);
+        metoda_cu_if_si_elseIf(5);
+        numar(14);
+        comp(14,15);
     }
 
     /**
      * Aici ai metode cu if-else
      * @author Robert
      */
+    private static void comp(int x, int y){
+        if(x>y) {
+            System.out.println("x este mai mare ca y");
+        }
+        else System.out.println("Y este mai mare ca x");
+    }
+    private static void numar(int number){
+        if(number == 1){
+            System.out.println("Numarul este corect ");
+
+        }
+        else {
+            System.out.println("Mai incearca ");
+        }
+    }
     private static void metoda_cu_if_si_else(boolean parameter){
         // in conditia if(parameter)  -> ea se traduce in felul urmator, DACA PARAMETER ESTE TRUE fa system, ALTFEL (else) fa celalalt system.
         if(parameter){

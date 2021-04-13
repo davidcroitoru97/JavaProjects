@@ -3,8 +3,8 @@ package Introduction.ConditionsAndLoops;
 public class whileLoop {
 
     public static void main(String args[]){
-        //TODO: incearca sa schimbi number pentru metoda sa vezi ce se intampla si sa intelgi logica
-        while_loop(6);
+        //Rezolvat: incearca sa schimbi number pentru metoda sa vezi ce se intampla si sa intelgi logica
+        while_loop(8 );
     }
 
     /**

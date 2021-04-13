@@ -3,13 +3,29 @@ package Introduction.ConditionsAndLoops;
 public class ConditionalSwitch {
 
     public static void main(String []args){
-        // TODO: testeaza si joacate cu metoda asta, si creiaza una care sa ia ca pararmetru un int
+        // Rezolvat: testeaza si joacate cu metoda asta, si creiaza una care sa ia ca pararmetru un int
+        swtich_method("Costel");
+        euro( 2);
     }
 
     /**
      * Aici ai metoda cu switch
      * @author Robert
      */
+    public static void euro(int valoare)
+    {
+        switch (valoare) {
+            case 5:
+                System.out.println(" Masina este Euro 5 ");
+                break;
+            case 3:
+                System.out.println("Masina ete euro 3");
+                break;
+            default:
+                System.out.println("Masina nu se incadreaza in normele de poluare deoarece este Euro " +valoare);
+
+        }
+    }
     public static void swtich_method(String nume){
         switch (nume){
             case "Robert":
@@ -26,4 +42,6 @@ public class ConditionalSwitch {
                 break;
         }
     }
+
+
 }
