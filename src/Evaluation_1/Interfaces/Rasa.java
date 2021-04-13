@@ -1,4 +1,4 @@
-package Evaluation_1;
+package Evaluation_1.Interfaces;
 
 public interface Rasa {
 

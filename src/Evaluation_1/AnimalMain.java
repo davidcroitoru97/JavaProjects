@@ -1,5 +1,8 @@
 package Evaluation_1;
 
+import Evaluation_1.Classes.Cal;
+import Evaluation_1.Interfaces.Rasa;
+
 public class AnimalMain {
 
     public static void main(String []args){

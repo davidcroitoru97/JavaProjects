@@ -1,9 +1,12 @@
-package Evaluation_1;
+package Evaluation_1.Classes;
 
-//import static Evaluation_1.Rasa.Par;
+//import static Evaluation_1.Interfaces.Rasa.Par;
+
+import Evaluation_1.AbstractClasses.Animal;
+import Evaluation_1.Interfaces.Rasa;
 
 //Am implementat interfata in clasa Vaca
-public class Vaca extends Animal implements Rasa{
+public class Vaca extends Animal implements Rasa {
 
     private String numeRasa;
 

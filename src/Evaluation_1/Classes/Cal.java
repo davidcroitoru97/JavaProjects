@@ -1,7 +1,10 @@
-package Evaluation_1;
+package Evaluation_1.Classes;
+
+import Evaluation_1.AbstractClasses.Animal;
+import Evaluation_1.Interfaces.Rasa;
 
 //Am implementat interfata in clasa Cal
-public class Cal extends Animal implements Rasa{
+public class Cal extends Animal implements Rasa {
     private  String Coada;
     private String Nume;
     private String numeRasa;

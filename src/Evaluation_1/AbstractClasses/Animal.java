@@ -1,4 +1,4 @@
-package Evaluation_1;
+package Evaluation_1.AbstractClasses;
 
 // Am creat o clasa abstracta
 public abstract class Animal {
