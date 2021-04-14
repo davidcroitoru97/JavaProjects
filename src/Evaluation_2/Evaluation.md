@@ -25,11 +25,11 @@ Se va crea o interfata cu urmatoarele metode care vor fi implementate intr-o cla
 * **calculPretComanda** = metoda care calculeaza pretul total a unei comenzi (cantitateVanduta * pretBucata)
 * **generateInfoComanda** = metoda care returneaza un string care sa contina toate informatiile despre o comanda 
 ****
-Se va creea o metoda numita **exportInfoComanda** care va lua ca un parametru un string si il va scrie intr-un fisier de tipul text.
+Se va creea o metoda numita **exportInfoComanda** care va lua ca un parametru un vector de stringuri si il va scrie intr-un fisier de tipul text.
 ****
 * In clasa main se vor creea obiecte de tipul Produse / Vanzatorii / Cumparatori.
 * Prin apelarea metodei **generateInfoComanda** care va lua ca parametrii un produs, un vanzator si un cumparator, se va genera un string cu informatia despre comanda
-* Cu ajutorul metodei **exportInfoComanda** se va scrie String-ul generat de metoda **generateInfoComanda** intr-un fisier text.
+* Cu ajutorul metodei **exportInfoComanda** se va scrie String-ul sau Stringurile generate de metoda **generateInfoComanda** intr-un fisier text.
 ****
 `Prin aceasta problema o sa treci prin toate conceptele pana in momentul de fata si in plus o sa te puna sa iti bati capul putin. Pentru informatii cum sa scrii intr-un fisier un String, o sa gasesti nelimitate chestii pe google. Dupa cum ti-am zis este necesar sa poti sa gandesti si sa cauti si sa gasesti solutii pentru ce ai de rezolvat.`
 
