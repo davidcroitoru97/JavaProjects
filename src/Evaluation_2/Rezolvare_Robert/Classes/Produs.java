@@ -2,15 +2,17 @@ package Evaluation_2.Rezolvare_Robert.Classes;
 
 public class Produs {
 
+    // detalii produs
     private String numeProdus;
     private int pretProdus;
 
+    // constructor produs
     public Produs(String numeProdus, int pretProdus) {
         this.numeProdus = numeProdus;
         this.pretProdus = pretProdus;
     }
 
-    //Getters & Setters
+    // Getters & Setters
     public String getNumeProdus() {
         return numeProdus;
     }

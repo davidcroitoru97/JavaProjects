@@ -1,3 +1,0 @@
-Comanda: Led 50W Cantitate: 10 Pret produs: 23 Pret Total: 230 Nume Vanzator: Robert Departament Vanzator: IT Nume Cumparator: David Localitate livrare: Iasi
-Comanda: Casetofon Cantitate: 32 Pret produs: 432 Pret Total: 13824 Nume Vanzator: Claudia Departament Vanzator: Design Nume Cumparator: Mirel Localitate livrare: Sibiu
-Comanda: Led 50W Cantitate: 10 Pret produs: 23 Pret Total: 230 Nume Vanzator: Claudia Departament Vanzator: Design Nume Cumparator: David Localitate livrare: Iasi

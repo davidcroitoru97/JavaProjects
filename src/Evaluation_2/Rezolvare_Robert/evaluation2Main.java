@@ -7,12 +7,14 @@ import Evaluation_2.Rezolvare_Robert.Classes.Vanzator;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-
+// TODO: Comenzile sunt scrise in "detaliiComenzi.txt" dupa rularea functiei main
 public class evaluation2Main {
 
+    // metoda pentru scrierea comenzilor in fisierul "detaliiComenzi.txt"
     public static void exportInfoComanda(String []comenzi) throws FileNotFoundException{
         PrintWriter out = new PrintWriter("src/Evaluation_2/Rezolvare_Robert/detaliiComenzi.txt");
 
+        // traverseaza fiecare comanda si pune-o in detaliiComenzi.txt
         for(int index = 0; index < comenzi.length; index++){
             out.println(comenzi[index]);
             System.out.println("Comanda cu numarul " + index + " a fost scrisa...");
@@ -43,7 +45,7 @@ public class evaluation2Main {
                 comanda.generateInfoComanda(produs1,vanzator2,cumparator1)
         };
 
-        // exporta comenzile
+        // exporta comenzile, este nevoie de try-catch pentru ca metoda arunca o exceptie si aici trebuie sa o prindem
         try {
             exportInfoComanda(comenzi);
         } catch (FileNotFoundException e) {
