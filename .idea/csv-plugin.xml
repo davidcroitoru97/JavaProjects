@@ -31,6 +31,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/src/Evaluation_2/Cumparator.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/Evaluation_2/Produs.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/Evaluation_2/Vanzator.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/src/Exceptii/Classes/NullPointerExceptionEX.java">
           <value>
             <Attribute>
