@@ -12,7 +12,7 @@ public class IndexOutOfBoundEX {
         // deci index-ului este {0, 1 , 2 , 3}, si eu am incercat sa afisez ce este pe pozitia 5 care nu exista, de asta si exceptia
         int vector[]={1,2,3,4};
 
-        System.out.println(vector[5]);
+        System.out.println(vector[3]);
 
     }
 
