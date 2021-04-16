@@ -1,8 +1,13 @@
 package Evaluation_2;
 
+//import java.io.PrintWriter;
+
 public class Main {
 
     public static void main(String [] args) {
+        //PrintWriter fisier = new PrintWriter(Comenzi.txt);
+       // Fisier String fisier = new Fisier();
+
 
         Produs produs1 = new Produs();
         produs1.setNumeProdus("Led");
@@ -23,5 +28,6 @@ public class Main {
 
 
     }
+
 
 }
