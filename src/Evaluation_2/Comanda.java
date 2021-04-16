@@ -8,7 +8,8 @@ public class Comanda  implements Interface{
     }
 
     @Override
-    public String generateInfoComanda(String info) {
-        return info;
+    public String generateInfoComanda(String info){
+
+        return System.out.println("");
     }
 }

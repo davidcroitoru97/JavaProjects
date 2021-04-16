@@ -1,14 +1,18 @@
 package Evaluation_2;
 
-//import java.io.PrintWriter;
+import java.io.PrintWriter;
 
 public class Main {
-
+        public void exportInfoComanda(String VV){
+            String vv= new String;
+        }
     public static void main(String [] args) {
-        //PrintWriter fisier = new PrintWriter(Comenzi.txt);
+
+        Object exporInfoComanda = null;
+        PrintWriter fisier = new PrintWriter(exporInfoComanda.txt);
        // Fisier String fisier = new Fisier();
 
-
+       // generateInfoComnada com= new generateInfoComanda();
         Produs produs1 = new Produs();
         produs1.setNumeProdus("Led");
         produs1.setPretProdus(15);
