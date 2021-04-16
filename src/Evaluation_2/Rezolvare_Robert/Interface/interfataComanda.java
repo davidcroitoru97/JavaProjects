@@ -6,7 +6,7 @@ import Evaluation_2.Rezolvare_Robert.Classes.Vanzator;
 
 public interface interfataComanda {
 
-    int calculPretComanda(int cantitateVanduta, int pretProdus);
+    double calculPretComanda(int cantitateVanduta, double pretProdus);
     String generateInfoComanda(Produs produs, Vanzator vanzator, Cumparator cumparator);
 
 }

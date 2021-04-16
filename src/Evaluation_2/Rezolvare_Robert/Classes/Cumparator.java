@@ -7,12 +7,19 @@ public class Cumparator {
     private String localitateCumparator;
     private int cantitateCumparata;
 
-    // constructor cumparator
+    // constructori cumparator
+    public Cumparator(String numeCumparator, String localitateCumparator) {
+        this.numeCumparator = numeCumparator;
+        this.localitateCumparator = localitateCumparator;
+    }
+
+
     public Cumparator(String numeCumparator, String localitateCumparator, int cantitateCumparata) {
         this.numeCumparator = numeCumparator;
         this.localitateCumparator = localitateCumparator;
         this.cantitateCumparata = cantitateCumparata;
     }
+
 
     //Getters & Setters
     public String getNumeCumparator() {

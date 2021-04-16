@@ -4,10 +4,10 @@ public class Produs {
 
     // detalii produs
     private String numeProdus;
-    private int pretProdus;
+    private double pretProdus;
 
     // constructor produs
-    public Produs(String numeProdus, int pretProdus) {
+    public Produs(String numeProdus, double pretProdus) {
         this.numeProdus = numeProdus;
         this.pretProdus = pretProdus;
     }
@@ -21,7 +21,7 @@ public class Produs {
         this.numeProdus = numeProdus;
     }
 
-    public int getPretProdus() {
+    public double getPretProdus() {
         return pretProdus;
     }
 
