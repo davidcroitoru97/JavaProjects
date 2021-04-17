@@ -59,6 +59,48 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/src/Evaluation_3/Rezolvare_Robert/Classes/Angajati.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/Evaluation_3/Rezolvare_Robert/Classes/Designer.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/Evaluation_3/Rezolvare_Robert/Classes/Developer.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/Evaluation_3/Rezolvare_Robert/Classes/Proiect.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/Evaluation_3/Rezolvare_Robert/Classes/ProjectManager.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/Evaluation_3/Rezolvare_Robert/Classes/Tester.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/src/Exceptii/Classes/NullPointerExceptionEX.java">
           <value>
             <Attribute>
