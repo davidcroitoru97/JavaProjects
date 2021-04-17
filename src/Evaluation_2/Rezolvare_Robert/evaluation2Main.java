@@ -20,7 +20,7 @@ public class evaluation2Main {
             out.println(comenzi[index]);
             System.out.println("Comanda cu numarul " + index + " a fost scrisa...");
         }
-HAHAHAHA daldlalalasdjkasdjsa
+
         out.close();
     }
 
