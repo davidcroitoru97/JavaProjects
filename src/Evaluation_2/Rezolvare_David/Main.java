@@ -1,7 +1,6 @@
-package Evaluation_2;
+package Evaluation_2.Rezolvare_David;
 
 import java.io.FileNotFoundException;
-import java.io.PrintWriter;
 
 public class Main {
 
@@ -16,6 +15,18 @@ public class Main {
         Produs produs1= new Produs("Led", 15);
         Vanzator vanzator1= new Vanzator("Dine", "Electric");
         Cumparator cumparator1= new Cumparator("Iosif","Iasi",5);
+
+        Vanzator vanzator4 = new Vanzator();
+
+        String infoComanda3 = comanda.generateInfoComanda(vanzator4.getNumeVanzator(),
+                vanzator4.getDepartamentVanzator(),
+                produs2.getNumeProdus(),
+                String.valueOf(produs2.getPretProdus()),
+                cumparator2.getNumeCumparator(),
+                cumparator2.getLocalitateCumparator(),
+                cumparator2.getCantitateCumparata(),
+                comanda.calculPretComanda(produs2.getPretProdus(),cumparator2.getCantitateCumparata()));
+
         String infoComanda = comanda.generateInfoComanda(vanzator2.getNumeVanzator(),
                 vanzator2.getDepartamentVanzator(),
                 produs2.getNumeProdus(),
@@ -25,8 +36,7 @@ public class Main {
                 cumparator2.getCantitateCumparata(),
                 comanda.calculPretComanda(produs2.getPretProdus(),cumparator2.getCantitateCumparata()));
 
-        Comanda comanda1 = new Comanda();
-        String infoComanda2= comanda1.generateInfoComanda(vanzator1.getNumeVanzator(),
+        String infoComanda2= comanda.generateInfoComanda(vanzator1.getNumeVanzator(),
                 vanzator1.getDepartamentVanzator(),
                 produs1.getNumeProdus(),
                 String.valueOf(produs1.getPretProdus()),
@@ -39,8 +49,9 @@ public class Main {
         System.out.println(infoComanda);
         System.out.println(infoComanda2);
 
-        comanda.exportInfoComanda(infoComanda);
-        comanda1.exportInfoComanda(infoComanda2);
+       // comanda.exportInfoComanda(infoComanda);
+       // comanda.exportInfoComanda(infoComanda2);
+        comanda.exportInfoComanda(infoComanda3);
 
         // generateInfoComnada com= new generateInfoComanda();
         // Produs produs1 = new Produs();
