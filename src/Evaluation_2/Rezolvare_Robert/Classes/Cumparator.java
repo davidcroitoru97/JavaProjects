@@ -1,18 +1,27 @@
-package Evaluation_2;
+package Evaluation_2.Rezolvare_Robert.Classes;
 
 public class Cumparator {
 
+    // detalii cumparator
     private String numeCumparator;
     private String localitateCumparator;
     private int cantitateCumparata;
 
-    public Cumparator(){}
-    public Cumparator(String numeCumparator, String localitateCumparator, int cantitateCumparata){
-        this.numeCumparator=numeCumparator;
-        this.localitateCumparator=localitateCumparator;
-        this.cantitateCumparata=cantitateCumparata;
+    // constructori cumparator
+    public Cumparator(String numeCumparator, String localitateCumparator) {
+        this.numeCumparator = numeCumparator;
+        this.localitateCumparator = localitateCumparator;
     }
 
+
+    public Cumparator(String numeCumparator, String localitateCumparator, int cantitateCumparata) {
+        this.numeCumparator = numeCumparator;
+        this.localitateCumparator = localitateCumparator;
+        this.cantitateCumparata = cantitateCumparata;
+    }
+
+
+    //Getters & Setters
     public String getNumeCumparator() {
         return numeCumparator;
     }
