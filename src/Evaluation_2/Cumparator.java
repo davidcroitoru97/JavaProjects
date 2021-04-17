@@ -2,15 +2,38 @@ package Evaluation_2;
 
 public class Cumparator {
 
-    public String numeCumparator;
-    public String localitateCumparator;
-    public int cantitateCumparata;
+    private String numeCumparator;
+    private String localitateCumparator;
+    private int cantitateCumparata;
 
     public Cumparator(){}
     public Cumparator(String numeCumparator, String localitateCumparator, int cantitateCumparata){
         this.numeCumparator=numeCumparator;
-        this.cantitateCumparata=cantitateCumparata;
+        this.localitateCumparator=localitateCumparator;
         this.cantitateCumparata=cantitateCumparata;
     }
 
+    public String getNumeCumparator() {
+        return numeCumparator;
+    }
+
+    public void setNumeCumparator(String numeCumparator) {
+        this.numeCumparator = numeCumparator;
+    }
+
+    public String getLocalitateCumparator() {
+        return localitateCumparator;
+    }
+
+    public void setLocalitateCumparator(String localitateCumparator) {
+        this.localitateCumparator = localitateCumparator;
+    }
+
+    public int getCantitateCumparata() {
+        return cantitateCumparata;
+    }
+
+    public void setCantitateCumparata(int cantitateCumparata) {
+        this.cantitateCumparata = cantitateCumparata;
+    }
 }
