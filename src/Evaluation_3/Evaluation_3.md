@@ -16,31 +16,34 @@
 * Anagajtii au urmatoarele proprietati comune:
     * nume si prenume
     * nivel (ex: Junior)
+    * star 
     
+
 * Developerul are urmatoarele proprietati proprii:
     * technology (ex: Java)
-    * star
     
+
 * Designer-ul are urmatoarele proprietati proprii:
     * programUsed (ex: Photoshop)
-    * star
     
+
 * Tester-ul are urmatoarele proprietati proprii:
     * type (ex: automation / QA )
-    * star
     
+
 * ProjectManager are urmatoarele proprietati proprii:
     * people (cati angajati are sub indrumare)
     
+
 * Proprietati proiect:
     * nume proiect
     * data terminarii proiectului (deadline)
 ****
 * Sa se creeze o interfata cu urmatoarele functii:
-    * **creareEchipa** = la apelarea acestei functii, parametrul (people) al unui Project Manager, trebuie iterat, adica crescut cu o unitate pentru fiecare angajat care ii se aloca
+    * **creareEchipa** = la apelarea acestei functii, parametrul (people) al unui Project Manager, trebuie sa fie setat cu cati angajati sunt asignati lui 
     si sa se genereze un String de forma:
       `Echipa Condusa de Project Manager-ul [nume] are sub indrumare un numar de [people] angajati.`
-    `HINT:` creare un vector de angajati in care se pot pune obiectele de tip angajati (ex: developer, designer etc.), urmat de sumarea numarului de angajati si modificarea atributului people pentru project manager.Atribuirea unei valori pentru parametrul people trebuie realizata doar prin apelarea acestei metode si nu prin initializarea cu o valoare in cadrul unui constructor.
+    `HINT:` creare un vector de angajati in care se pot pune obiectele de tip angajati (ex: developer, designer etc.). Atribuirea unei valori pentru parametrul people trebuie realizata doar prin apelarea acestei metode, in constructor valoarea trebuie sa fie 0;
     * **alocareProiect** = aici trebuie sa se atribuie pentru o echipa un anume proiect si sa se genereze urmatorul string 
     
     _Stringul generat de metoda creeareEchipa_ + ` pe proiectul [numeProiect] care are deadline-ul pe data de [deadline].`
@@ -63,6 +66,6 @@
         * in cazul in care angajatul este Project Manager:
             `Project Manager [nume] [prenume] | Coordonated People: [people]`
           
-`HINT: poti realiza cu if sau switch`
+`HINT: poti realiza cu if si instanceof, citeste ce este instaceof si cum o poti folosi`
 
 * In main trebuie sa populezi cele 2 fisiere txt cu informatiile aferente. Spor!
