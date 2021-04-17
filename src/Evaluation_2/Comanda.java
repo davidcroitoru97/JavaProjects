@@ -20,7 +20,7 @@ public class Comanda  implements Interface{
                 " Nume Cumparator "+numeCumparator+
                 " Localita: "+localitateCumparator+
                 " Cantitate Cumparata "+cantitateCumparata
-                +""+ PretComanda;
+                +" PretComanda"+ PretComanda;
     }
     public void exportInfoComanda(String infoComanda) throws FileNotFoundException {
         PrintWriter out = new PrintWriter("InfoComanda.txt");
