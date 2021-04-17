@@ -1,0 +1,5 @@
+COMANDA REUSITA: Produs: Led 50W | Cantitate: 10 | Pret produs: 23.32 RON | Pret Total: 233.2 RON | Nume Vanzator: Robert | Departament Vanzator: IT | Nume Cumparator: David | Localitate livrare: Iasi
+COMANDA REUSITA: Produs: Casetofon | Cantitate: 32 | Pret produs: 432.1 RON | Pret Total: 13827.2 RON | Nume Vanzator: Claudia | Departament Vanzator: Design | Nume Cumparator: Mirel | Localitate livrare: Sibiu
+COMANDA REUSITA: Produs: Led 50W | Cantitate: 10 | Pret produs: 23.32 RON | Pret Total: 233.2 RON | Nume Vanzator: Claudia | Departament Vanzator: Design | Nume Cumparator: David | Localitate livrare: Iasi
+COMANDA ESUATA: Cumparatorul Gigel a pus 0 unitati 'Casetofon'. Comanda nu poate fi procesata
+COMANDA REUSITA: Produs: - | Cantitate: 10 | Pret produs: 21.99 RON | Pret Total: 219.89999999999998 RON | Nume Vanzator: Vasile | Departament Vanzator: - | Nume Cumparator: David | Localitate livrare: Iasi
