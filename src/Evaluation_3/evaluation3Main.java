@@ -63,7 +63,6 @@ public class evaluation3Main {
         detalii.alocareProiect(creareEchipa1, proiect1),
                 detalii.alocareProiect(creareEchipa2,proiect2)
       };
-
         String[] detangajat ={
                 detalii.detaliiAngajati(tester1),
                 detalii.detaliiAngajati(tester2),

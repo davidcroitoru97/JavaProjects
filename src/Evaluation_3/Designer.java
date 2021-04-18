@@ -1,7 +1,6 @@
 package Evaluation_3;
 
 public class Designer extends Angajati {
-
     private String programUsed;
 
     public Designer(String nume, String nivel, double star,String programUsed){

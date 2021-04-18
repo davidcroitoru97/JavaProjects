@@ -8,7 +8,6 @@ public class Developer extends Angajati{
         super(nume,nivel, star);
         this.technology= technology;
 
-
     }
 
     public String getTechnology() {

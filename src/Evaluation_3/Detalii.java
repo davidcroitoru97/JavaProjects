@@ -1,7 +1,6 @@
 package Evaluation_3;
 
 public class Detalii implements InterfaceProiect{
-
     @Override
     public String creareEchipa(Angajati nume, ProjectManager people) {
         String nume_Angajat="-";
