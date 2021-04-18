@@ -2,6 +2,7 @@ package Evaluation_3;
 
 public class Angajati {
 
+
     protected String nume;
     protected String nivel;
     protected double star;

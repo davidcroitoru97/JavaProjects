@@ -2,6 +2,7 @@ package Evaluation_3;
 
 public class Tester extends Angajati{
 
+
     private String type;
 
     public Tester(String nume, String nivel, double star,String type){
