@@ -46,18 +46,18 @@ public class Detalii implements InterfaceProiect{
             return "Tester"+ ": Nivel" + angajat.getNivel() +
                     " Type : "+((Tester) angajat).getType() + " -----Tester-----" +
                     " Star: " +angajat.getStar() +
-                    " Numele"+ angajat.getNume();
+                    " Numele "+ angajat.getNume();
         }
-      //if(angajat instanceof Designer){
-           // return "Nivel: " + angajat.getNivel() +
-            //        " Designer with" + ((Designer) angajat).getProgramUsed() +
-             //       " Star:" + angajat.getStar() +
-              //      " Nume:" + angajat.getNume();
-        //}
-       // else if(angajat instanceof ProjectManager){
-         //   return "Project Manager: " + angajat.getNume() +
-          //          "   Coordonate People: " + ((ProjectManager) angajat).getPeople();
-        //}
+        else if(angajat instanceof Designer){
+            return "Nivel: " + angajat.getNivel() +
+                  " Designer with " + ((Designer) angajat).getProgramUsed() +
+                  " Star:" + angajat.getStar() +
+                   " Nume:" + angajat.getNume();
+        }
+       else if(angajat instanceof ProjectManager){
+            return "Project Manager: " + angajat.getNume() +
+                    "   Coordonate People: " + ((ProjectManager) angajat).getPeople();
+        }
        return null;
     }
 

@@ -34,24 +34,25 @@ public class evaluation3Main {
        // Angajati angajat2 = new Angajati("Croitoru David","Senior", 4.5);
         
         //Developer
-        Developer developer1 = new Developer("Duminica Rares","Senior",4,"Java");
-        Developer developer2 = new Developer("Vieriu Razvan","Junior",4,"C");
+        Developer developer1 = new Developer("Duminica Rares","Senior",0,"Java");
+        Developer developer2 = new Developer("Vieriu Razvan","Junior",0,"C");
         
         //Designer
-        Designer designer1 = new Designer("Croitoru David","Senior",4.5,"Eclipse");
-        Designer designer2 = new Designer("Gicu Gigel","Senior",4,"Photoshop");
+        Designer designer1 = new Designer("Croitoru David","Senior",0,"Eclipse");
+        Designer designer2 = new Designer("Gicu Gigel","Senior",0,"Photoshop");
         
         //Tester
-        Tester tester1 = new Tester("Vieriu Augustin","Junior",4,"automation");
-        Tester tester2 = new Tester("Musteata DAvid","senior",3,"QA");
-        
+        Tester tester1 = new Tester("Vieriu Augustin","Junior",0,"automation");
+        Tester tester2 = new Tester("Musteata DAvid","senior",0,"QA");
+
+
         //ProjectManager
-        ProjectManager projectManager1= new ProjectManager("Costel Gicu","Boss",4,4);
-        ProjectManager projectManager2 = new ProjectManager("Tim Cristi","Boss",4,6);
+        ProjectManager projectManager1= new ProjectManager("Costel Gicu","Boss",0,0);
+        ProjectManager projectManager2 = new ProjectManager("Tim Cristi","Boss",0,0);
         
         //Proiect
-        Proiect proiect1 = new Proiect("Vasile Ioan","Boss",4,"ShopOnline","23/04/2021");
-        Proiect proiect2 = new Proiect("Fane Spoitoru","Senior",4,"Sondaj","23/05/2021");
+        Proiect proiect1 = new Proiect("Vasile Ioan","Boss",0,"ShopOnline","23/04/2021");
+        Proiect proiect2 = new Proiect("Fane Spoitoru","Senior",0,"Sondaj","23/05/2021");
 
 
 
@@ -67,7 +68,13 @@ public class evaluation3Main {
                 detalii.detaliiAngajati(tester1),
                 detalii.detaliiAngajati(tester2),
                 detalii.detaliiAngajati(developer1),
-                detalii.detaliiAngajati(developer2)
+                detalii.detaliiAngajati(developer2),
+                detalii.detaliiAngajati(designer1),
+                detalii.detaliiAngajati(designer2),
+                detalii.detaliiAngajati(projectManager1),
+                detalii.detaliiAngajati(projectManager2),
+                detalii.detaliiAngajati(proiect1),
+                detalii.detaliiAngajati(proiect2)
         };
 
         try{
