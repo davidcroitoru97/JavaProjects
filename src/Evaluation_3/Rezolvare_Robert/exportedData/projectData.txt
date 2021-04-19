@@ -1,0 +1,3 @@
+Echipa condusa de Project Manager-ul Voiculescu Andrei are sub indrumare un numar de 3 angajati pe proiectul 'Social Site' care are deadline-ul pe data de 'January 2022'
+Echipa condusa de Project Manager-ul Ionel Mirel are sub indrumare un numar de 2 angajati pe proiectul 'Automation Testing Tool' care are deadline-ul pe data de 'December 2023'
+Echipa condusa de Project Manager-ul Voiculescu Andrei are sub indrumare un numar de 3 angajati pe proiectul 'Multinational Birocracy' care are deadline-ul pe data de 'August 2021'
