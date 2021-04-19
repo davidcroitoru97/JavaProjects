@@ -2,11 +2,13 @@ package Evaluation_3.Rezolvare_Robert.Classes;
 
 public class Angajati {
 
+    // variabile
     private String nume;
     private String prenume;
     private String nivel;
     private int star;
 
+    // constructor
     public Angajati(String nume, String prenume, String nivel, int star) {
         this.nume = nume;
         this.prenume = prenume;
@@ -14,6 +16,7 @@ public class Angajati {
         this.star = star;
     }
 
+    // setters & getters
     public int getStar() {
         return star;
     }

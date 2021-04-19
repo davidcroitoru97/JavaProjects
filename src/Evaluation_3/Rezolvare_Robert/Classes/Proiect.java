@@ -2,14 +2,17 @@ package Evaluation_3.Rezolvare_Robert.Classes;
 
 public class Proiect {
 
+    // variabile
     private String numeProiect;
     private String deadline;
 
+    // constructor
     public Proiect(String numeProiect, String deadline) {
         this.numeProiect = numeProiect;
         this.deadline = deadline;
     }
 
+    // getters & setters
     public String getNumeProiect() {
         return numeProiect;
     }
