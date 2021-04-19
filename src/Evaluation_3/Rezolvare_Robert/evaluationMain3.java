@@ -5,7 +5,7 @@ import Evaluation_3.Rezolvare_Robert.Logic.ExportInfo;
 import Evaluation_3.Rezolvare_Robert.Logic.TeamInterfaceImplementation;
 
 
-public class evaluation3Main {
+public class evaluationMain3 {
 
     public static void main(String []args) {
 
