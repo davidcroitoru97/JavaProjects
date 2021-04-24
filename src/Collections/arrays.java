@@ -16,5 +16,18 @@ public class arrays {
 
         // afisare valoare de pe indexul 7
         System.out.println(vectorForIntegers[7]);
+
+
+        String[] A= new String[5];
+        A[0]="Croitoru";
+        A[1]="David";
+
+        System.out.println(A[0]+" "+A[1]);
+
+
+
+
+
+
     }
 }
