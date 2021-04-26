@@ -19,6 +19,7 @@ public class linkedList {
         a.remove("Falticeni");
         System.out.println(a);
 
+
     }
 }
 

@@ -8,6 +8,8 @@ public class list {
             // am creat lista
             List<String> a1
                     = new ArrayList<String>();
+            List<String> b1
+                    = new ArrayList<String>();
 
             // Aici adaugam un element pe indexul 0
             a1.add(0, "Croitoru");
@@ -39,6 +41,18 @@ public class list {
            a2.set(0, "NUME");
            a2.set(1," ");
             System.out.println(a2);
+
+            b1.add("c");
+            b1.add("w");
+            b1.add("a");
+            b1.add("e");
+            //Sortam elementele din lista
+            Collections.sort(b1);
+            System.out.println(b1);
+
+
+
+
         }
     }
 
