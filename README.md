@@ -1,5 +1,5 @@
-# JavaProjects
-Learn Java -> Packages
+# Learn
+
 
 1. Introduction -> Concepts
 2. OOP -> Incapsulation, Abstraction, Inheritance, Polymorphism
