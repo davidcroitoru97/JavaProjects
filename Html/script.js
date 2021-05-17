@@ -1,4 +1,5 @@
 
+
 function buton() {
   var txt;
   if (confirm("Press a button!")) {
@@ -7,4 +8,7 @@ function buton() {
     txt = "You pressed Cancel!";
   }
   document.getElementById("demo").innerHTML = txt;
+}
+function readsql() {
+
 }
